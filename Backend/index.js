@@ -9,7 +9,7 @@ app.use(cors());
 
 const port = process.env.PORT || 4000;
 
-const uri = process.env.MONGODB_URI || "mongodb+srv://anandkr369:Kumaranand369@jobportal.lop3xid.mongodb.net/?retryWrites=true&w=majority&appName=jobPortal";
+const uri = process.env.MONGODB_URI;
 
 const client = new MongoClient(uri, {
   serverApi: {
