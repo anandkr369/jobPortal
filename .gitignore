@@ -1,0 +1,4 @@
+Backend/node_modules
+Frontend/jobportal/node_modules
+Frontend/jobportal/.env
+Backend/.env
